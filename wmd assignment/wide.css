@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Titillium Web', sans-serif;
+	
+
+}
+
+.logo {
+	position: absolute;
+    top: -25px;
+    right: 5px;
+    width: 150px;
+    height: auto;
+}
+
+.link {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 70px;
+}
+
+
+.nowshowing {
+	margin-top: 30px;
+}
+
+.comingsoon {
+	margin-top: 10px;
+}
+
+a {
+	position: relative;
+	padding: 1px 20px;
+	background-color: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	letter-spacing: 0.4px;
+	font-size: 28px;
+}
+
+.link:hover {
+	color: white;
+	background-color: black;
+    transition: 0.5s;
+}
+
+.link {
+	text-align: center;
+
+
+}
+
+.row1 {
+	display: flex;	
+	justify-content: center;
+	padding-top: 130px;
+	pointer-events: none;
+}
+
+.row2 {
+	display: flex;	
+	justify-content: center;
+	padding-top: 130px;
+	pointer-events: none;
+}
+
+
+.row1 img {
+	max-width: 90%;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	pointer-events: auto;
+
+}
+
+.row2 img {
+	max-width: 90%;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	pointer-events: auto;
+
+}
+
+.footer {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 50px;
+	max-width: 90%;
+	padding: 10px;
+	
+}
+
+.footer a {
+	margin-top: -10px;
+}
+
+.col1 {
+	position: absolute;
+	left: 3%;
+	margin-bottom: 20px;
+	padding: 20px;
+	padding-bottom: 60px;
+	border: 1px solid black;
+}
+
+.col3 {
+	position: absolute;
+	right: 4%;
+	padding: 20px;
+	padding-bottom: 30px;
+	border: 1px solid black;
+}
+
+footer {
+	margin-top: 10px;
+	margin-bottom: 320px;
+
+}
+
+.col1 h1 {
+	font-size: 25px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+
+}
+
+.col3 h1 {
+	font-size: 25px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+
+}
+
+form input {
+	width: 280px;
+	height: 25px;
+	border-radius: 4px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	outline: none;
+	border: none;
+
+}
+
+form button {
+	background: transparent;
+	border: 1px solid black;
+	color: black;
+	padding: 2px 10px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+form button:hover {
+	background: black;
+	border: 1px solid white;
+	color: white;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.icons {
+	margin-top: 10px;
+}
+
+.icons i {
+	font-size: 20px;
+	margin: 5px;
+	cursor: pointer;
+}
